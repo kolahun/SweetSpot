@@ -11,6 +11,10 @@ body{
 h2{
     color: #00bcd4;
 }
+.logo-link{
+    width: 50px;
+    height: auto;
+}
 .home{
     background-color: #222;
     margin-top:3%;
