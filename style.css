@@ -1,4 +1,7 @@
-/* .navigation{
-    background-color: #778da9;
-    display: flex;
-} */
+body{
+    background-color: #292735;
+    color:rgb(171, 166, 166);
+}
+.navigate{
+    padding: 20px 15px;
+}

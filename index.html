@@ -4,25 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="container text-center navigation">
-        
-        <div class="container text-center">
-            <a href="">Home</a>
-            <a href="">Download</a>
-            <a href="">About us </a>
+    <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="">Sweetspot</a>
+            <a href="#">DOCS</a>
+            <a href="#">Download</a>
+            <a href="#">About us </a>
         </div>
     </nav>
     <div>
         <section class="home">
-            <p>this is some brief about the project</p>
+            <p>Cybersecurity threats are growing rapidly, and attackers often scan networks for vulnerable open ports to exploit. Traditional honeypots (static traps) expose specific ports and services to deceive attackers, but once identified, they become ineffective.
+            Sweet Spot is an innovative dynamic honeypot that continuously changes its open ports, creating a moving target for attackers. By rotating ports and logging connection attempts, it acts as both a research tool and a defensive mechanism.
+            </p>
+            <h2>Objectives</h2> 
+            <ul>
+                <li>To design and implement a dynamic honeypot that periodically changes open ports.</li>
+                <li>To log attacker behavior (IP, port accessed, timestamp).</li>
+                <li>To create a web-based GUI that allows easy control of the honeypot (start, stop, view logs).</li>
+                <li>To increase the difficulty for attackers performing port scanning and reconnaissance.</li>
+                <li>To demonstrate the integration of networking, AI in cybersecurity (future scope), and data security.</li>
+            </ul>
+            
+
         </section>
-        <button>
-            Download
-        </button>
+        <div class="alert alert-success" >
+           <span>Download SweetSpot</span> 
+            <button type="button" class="btn btn-success">Download</button>
+        </div>
+        <section>
+            <h2>Advantages</h2> 
+            <ul>
+                <li>Dynamic Defense → Moving target makes scanning harder.</li>
+                <li>Easy Monitoring → GUI provides a clean interface.</li>
+                <li>Attack Insights → Logs help analyze attacker patterns.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Limitations</h2> 
+            <ul>
+                <li>Currently simulates basic fake services (not full OS-level honeypot like Honeyd).</li>
+                <li>Limited to Windows testing environment in current form.</li>
+                <li>Requires Administrator rights to bind to certain ports.</li>
+            </ul>
+        </section>
+        
         <footer class="about-us">
             <p>this is about us </p>
         </footer>
