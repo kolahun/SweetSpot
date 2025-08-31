@@ -1,7 +1,10 @@
 body{
-    background-color: #292735;
-    color:rgb(171, 166, 166);
+    background-color: #000;
+    color: #f1f1f1;;
 }
 .navigate{
     padding: 20px 15px;
+}
+.main{
+    margin: 0 10%;
 }
