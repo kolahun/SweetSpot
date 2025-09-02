@@ -32,6 +32,23 @@ h2 {
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px; /* logo aur text ke beech gap */
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: 700;
+    color: #00e5ff;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(0, 255, 247, 0.5); /* neon glow */
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    cursor: default; /* pointer cursor band */
+}
+
 
 .navbar .logo img {
     width: 50px;
