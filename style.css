@@ -75,7 +75,7 @@ h2 {
     color: #00bcd4;
 }
 
-/* === Sections (Home, Objectives, Advantages) === */
+
 .home {
     background: rgba(34, 34, 34, 0.9);
     backdrop-filter: blur(6px);
@@ -170,8 +170,7 @@ footer {
     margin: 5px 0;
     font-size: 14px;
     color: #ddd;
-    word-wrap: break-word;     /* purane browsers ke liye */
-    overflow-wrap: anywhere;   /* modern browsers ke liye */
+    overflow-wrap: anywhere;   
 }
 
 .member h3 {
