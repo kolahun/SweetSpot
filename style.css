@@ -166,6 +166,13 @@ footer {
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.member p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ddd;
+    word-wrap: break-word;     /* purane browsers ke liye */
+    overflow-wrap: anywhere;   /* modern browsers ke liye */
+}
 
 .member h3 {
     margin: 0 0 10px 0;
